@@ -223,10 +223,10 @@ header.masthead {
   display: block;
   max-width: 650px;
   margin: 0 auto; }
-  .portfolio-box img {
+  /*.portfolio-box img {
     max-width: 100%;
     max-height: 100%;
-  }
+  }*/
   .portfolio-box .product-title {
     position: absolute;
     width: 100%;
