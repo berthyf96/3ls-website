@@ -215,11 +215,18 @@ header.masthead {
   .service-box p {
     margin-bottom: 0; }
 
+#products-header {
+  margin: 70px 0 30px 0;
+}
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto; }
+  .portfolio-box img {
+    max-width: 100%;
+    max-height: 100%;
+  }
   .portfolio-box .product-title {
     position: absolute;
     width: 100%;
@@ -231,8 +238,6 @@ header.masthead {
     font-size: 30px;
     line-height: 36px;
     color: white;
-    color: #e6e6e6;
-    text-transform: uppercase;
     background-color: rgba(0, 0, 10, 0.6);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -378,3 +383,8 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+
+#photos {
+  margin-top: 50px;
+  background: #e6e6e6;
+}
