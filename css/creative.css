@@ -398,3 +398,9 @@ header.masthead {
   margin-top: 50px;
   background: #e6e6e6;
 }
+
+.small-text {
+  color: #bfbfbf;
+  font-size: 12px;
+  font-weight: 200;
+}
