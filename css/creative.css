@@ -227,6 +227,16 @@ header.masthead {
     max-width: 100%;
     max-height: 100%;
   }*/
+  .portfolio-box .fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
+    .portfolio-box .fill img {
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
   .portfolio-box .product-title {
     position: absolute;
     width: 100%;
