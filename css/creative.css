@@ -85,6 +85,8 @@ body {
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
+    /*border: 5px solid #006dfc;*/
+    padding: 10px 35px;
     font-weight: 700;
     text-transform: uppercase;
     color: #006dfc;
@@ -322,6 +324,9 @@ header.masthead {
     color: #222222;
     border-color: #e0e0e0;
     background-color: #e6e6e6; }
+  .btn-default .lighter-button {
+    background-color: #54c0ff;
+  }
   .btn-default.active, .btn-default:active,
   .open > .btn-default.dropdown-toggle {
     color: #222222;
@@ -393,6 +398,15 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+.lighter-button {
+  background-color: #7cfff7;
+}
+.lighter-button:hover, .lighter-button:active {
+  background-color: #6fe8e0;
+}
+.lighter-button:focus {
+  background-color: #7cfff7;
+}
 
 #photos {
   margin-top: 50px;
